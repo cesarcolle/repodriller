@@ -406,7 +406,7 @@ public class RepositoryMining {
 		/* Make sure we didn't lose any ChangeSets. */
 		if (totalConsumed != rawCs.size()) {
 			log.fatal("Error, consumed " + totalConsumed + " ChangeSets but had " + rawCs.size() + " ChangeSets to work on");
-			System.exit(1);
+			//System.exit(1);
 		}
 	}
 

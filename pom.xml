@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.repodriller</groupId>
-	<artifactId>repodriller</artifactId>
+	<groupId>hcs.rimel.repodriller</groupId>
+	<artifactId>hcs-repodriller</artifactId>
 	<packaging>jar</packaging>
 	<version>1.4.1-SNAPSHOT</version>
 	<name>repodriller</name>
-	<url>http://github.com/mauricioaniche/repodriller</url>
+	
 	<description>Framework for researchers in MSR</description>
 
 	<properties>
@@ -20,25 +20,6 @@
 		</license>
 	</licenses>
 
-	<developers>
-		<developer>
-			<id>mauricioaniche</id>
-			<name>Mauricio Aniche</name>
-			<email>mauricioaniche@gmail.com</email>
-			<organization>Delft University of Technology</organization>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>-3</timezone>
-		</developer>
-	</developers>
-
-	<scm>
-		<url>http://github.com/mauricioaniche/repodriller</url>
-		<connection>scm:git:git://github.com/mauricioaniche/repodriller</connection>
-		<developerConnection>scm:git:git@github.com:mauricioaniche/repodriller.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
 
 	<repositories>
 		<repository>
